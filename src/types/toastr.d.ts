@@ -1,0 +1,1 @@
+export type ToastrType = 'success'|'error'|'loading'

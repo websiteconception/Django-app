@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "esnext",
+    "baseUrl": "./src",
+    "declaration": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "pages/*": ["pages/*"],
+      "utils/*": ["utils/*"],
+      "store/*": ["store/*"],
+      "types/*": ["types/*"],
+      "i18n/*": ["i18n/*"],
+      "epics/*": ["epics/*"],
+      "hooks/*": ["hooks/*"],
+      "layouts/*": ["layouts/*"],
+      "actions/*": ["actions/*"],
+      "services/*": ["services/*"],
+      "reducers/*": ["reducers/*"],
+      "components/*": ["components/*"],
+      "middlewares/*": ["middlewares/*"],
+      "action-streams/*": ["action-streams/*"],
+      "action-creators/*": ["action-creators/*"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "cypress"
+  ]
+}

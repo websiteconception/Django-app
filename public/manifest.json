@@ -1,0 +1,22 @@
+{
+  "name": "Casai",
+  "short_name": "Casai",
+  "icons": [
+    {
+      "src": "icons/favicon.ico",
+      "sizes": "144x144",
+      "type": "image/ico"
+    },
+    {
+      "src": "icons/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/ico"
+    },
+    {
+      "src": "icons/favicon.ico",
+      "sizes": "384x384",
+      "type": "image/ico"
+    }
+  ],
+  "start_url": "."
+}
